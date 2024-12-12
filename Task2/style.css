@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 100%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+li button {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+li button:hover {
+    background-color: #db3735;
+}
+
+.board-section, .task-section {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.task-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task-section input {
+    width: 70%;
+}
+
+.task-section button {
+    width: 20%;
+}
+
+.boards {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.boards ul {
+    padding-left: 0;
+}
+
+.board-item {
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.board-item:hover {
+    background-color: white;
+}
+
+.board-item button {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.board-item button:hover {
+    background-color: rebeccapurple;
+}
